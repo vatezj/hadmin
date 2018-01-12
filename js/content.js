@@ -1,19 +1,19 @@
-// var $parentNode = window.parent.document;
+var $parentNode = window.parent.document;
 
-// function $childNode(name) {
-//     return window.frames[name]
-// }
+function $childNode(name) {
+    return window.frames[name]
+}
 
-// // tooltips
-// $('.tooltip-demo').tooltip({
-//     selector: "[data-toggle=tooltip]",
-//     container: "body"
-// });
+// tooltips
+$('.tooltip-demo').tooltip({
+    selector: "[data-toggle=tooltip]",
+    container: "body"
+});
 
-// // 使用animation.css修改Bootstrap Modal
-// $('.modal').appendTo("body");
+// 使用animation.css修改Bootstrap Modal
+$('.modal').appendTo("body");
 
-// $("[data-toggle=popover]").popover();
+$("[data-toggle=popover]").popover();
 
 
 //判断当前页面是否在iframe中

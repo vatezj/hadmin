@@ -4409,6 +4409,7 @@ a.close-canvas-menu:hover {
 }
 
 .modal {
+    /* position:absolute; */
     z-index: 2050 !important;
 }
 
